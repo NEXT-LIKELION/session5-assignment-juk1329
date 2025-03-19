@@ -1,7 +1,7 @@
 // 실습3
 const input = prompt("가위, 바위, 보 중 하나를 고르세요");
 const random_num = Math.random();
-let computerputer = "";
+let computer = "";
 
 if (random_num < 0.3) {
     computer = "가위";
